@@ -6,6 +6,9 @@ msvc-inline-syscall is a Microsoft Visual Studio project designed to perform inl
 **Features**
 
 `Inline Syscalls`: Ability to execute syscalls directly in user-mode with __syscall and __set_syscall_id.
+
 `Syscall ID Retrieval`: Automatically disassemble a routine to find its associated syscall ID with SysGetSyscallIDFromRoutine.
+
 `Lambda-Based Execution`: Use macros like SYSCALL, SYSCALL_GET, and SYSCALL_BY_ID to create and invoke syscalls in a flexible and type-safe manner.
+
 `Disassembler Integration (Optional)`: Optionally integrate with hde64 to disassemble routines and extract the syscall ID.
